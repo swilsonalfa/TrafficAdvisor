@@ -1,0 +1,19 @@
+{
+  "name": "swilsonalfa/TrafficAdvisor",
+  "description": "description_text",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stewart Wilson",
+      "email": "stewart@stewartw.net"
+    }
+  ],
+  "require" : {
+    "silverstripe/framework" : "3.2.1",
+    "gdmedia/ss-auto-git-ignore" : "dev-master"
+  },
+  "scripts": {
+    "post-update-cmd": "GDM\\SSAutoGitIgnore\\UpdateScript::Go"
+  },
+  "minimum-stability" : "dev"
+}
