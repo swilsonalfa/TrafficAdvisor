@@ -1,0 +1,6 @@
+---
+Name: rootroutes
+---
+Director:
+  rules:
+    'process//$Action/$ID': 'ProcessTrafficController'
