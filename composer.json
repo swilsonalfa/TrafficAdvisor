@@ -10,6 +10,7 @@
   ],
   "require" : {
     "silverstripe/framework" : "3.2.1",
+    "predis/predis": "*",
     "gdmedia/ss-auto-git-ignore" : "dev-master"
   },
   "scripts": {
